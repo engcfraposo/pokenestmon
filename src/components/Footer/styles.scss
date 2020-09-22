@@ -1,0 +1,12 @@
+@import '../../mixin.scss';
+
+  .footer {
+    height: 100px;
+    background: #ffffff 0% 0% no-repeat padding-box !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+      font: 18px/20px Quicksand-Bold;
+    }
+  }
