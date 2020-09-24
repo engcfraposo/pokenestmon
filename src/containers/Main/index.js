@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import GoogleAd from 'react-google-ad';
 import moment from 'moment';
@@ -9,6 +9,7 @@ import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
 import {icons, regions} from '../../services/nest';
 
+const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png";
 
 function Main() {
     const [, setLoading] = useState(true);
@@ -66,7 +67,7 @@ function Main() {
     <div className="main">
     <div className="main-first">
       <div className={`ajuste${scroll === true ? ' full' : ''}`}>
-        <img src={'https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png'} alt="Logo" className="logo-pokemon" />
+        <img src={imageUrl} alt="Logo" className="logo-pokemon" />
         <input
           onKeyPress={() => handleClick()}
           placeholder="Buscar por pokemon"
@@ -147,7 +148,11 @@ function Main() {
       </div>
           )}
       <div className={scroll === true ? ' city city-scroll' : 'city'} id="city">
-      <PokeGrid hasfilter={filter} select={select} isLoading={value => setLoading(value)} />
+      <PokeGrid 
+        hasfilter={filter} 
+        select={select} 
+        isLoading={value => setLoading(value)} 
+        />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
       </div>
@@ -156,5 +161,5 @@ function Main() {
   );
 }
 
-export default Main;
+export default memo(Main);
 

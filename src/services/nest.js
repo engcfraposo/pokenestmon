@@ -491,7 +491,7 @@ export const coordinates = [
     coordinates: ["26.6882,127.8753","40.8041,-73.9997","43.8193,125.3302","52.0597,-0.7273"]
     },
     {
-    id: 347,
+    id: 273,
     region: "Hoenn",
     shiny: true,
     name:"Seedot",
@@ -562,7 +562,7 @@ export const coordinates = [
     },
     {
     id: 209,
-    region: "Hoenn",
+    region: "Johto",
     shiny: true,
     name:"Snubbull",
     coordinates: ["37.3164,126.8591","51.5325,-0.1505"]
