@@ -4,7 +4,7 @@ import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
 import {coordinates} from '../../services/nest'
 
-function PokeGrid({hasfilter}){
+function PokeGrid({hasfilter, select}){
     const [pokemon, setPokemon] = useState([])
 
     const pokedex = () =>{
@@ -20,15 +20,18 @@ function PokeGrid({hasfilter}){
         });  
     }
     
+    const hasSelect = coordinates
+    .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
+
     useEffect(() => {
         pokedex()
     }, [pokedex]);
 
-    const filtro = pokemon.filter((poke) => poke.name.toLowerCase().indexOf(String(hasfilter)) > -1)
-    useEffect(() => {
-      console.log(hasfilter)
-  }, [filtro]);
-
+    
+    const filtro = pokemon
+    .filter((poke) => poke.name.toLowerCase().indexOf(String(hasfilter.toLowerCase())) > -1)
+    
+    
   return (
     <div className="city">
     <Container fluid>
@@ -38,7 +41,11 @@ function PokeGrid({hasfilter}){
         {filtro.length > 0
         ?(
         <div className="grid-container">
-          {filtro.map((pokedex, index) => coordinates.map((filterPoke) => pokedex.name.toLowerCase() === String(filterPoke.name).toLowerCase()
+          {filtro.map((pokedex, index) => 
+          coordinates.map((filterPoke) => 
+          hasSelect.map((selected) =>
+          pokedex.name.toLowerCase() === String(filterPoke.name).toLowerCase() 
+          && pokedex.name.toLowerCase() === String(selected.name).toLowerCase()
             ?(
               <div key={index}>
                 <PokeCardList
@@ -50,7 +57,7 @@ function PokeGrid({hasfilter}){
               </div>
             )
             :(false)
-          ))}
+          )))}
         </div>
       )
         :(

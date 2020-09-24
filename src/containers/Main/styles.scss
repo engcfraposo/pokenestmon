@@ -90,6 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
 
     .default {
       display: flex;
@@ -99,12 +100,14 @@
   }
 
   p {
+    margin-top: 10px;
     color: white !important;
     font: 20px Quicksand-Bold;
     margin: 10 px 0;
   }
 
   p.clean {
+    margin-top: 5px;
     color: white !important;
     font: 15px Quicksand !important;
   }
@@ -116,7 +119,7 @@
 
 
   .main-first {
-    height: 70%;
+    height: 60%;
     background:#26DEA8;
     background-image: url('https://cdn.traction.one/pokedex/pokemon/25.png');
     background-repeat: no-repeat;
@@ -200,7 +203,7 @@
   }
 
   .main-last {
-    height: 30%;
+    height: 40%;
     background: #3E3F68;
     display: flex;
     justify-content: center;

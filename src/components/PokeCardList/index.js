@@ -6,7 +6,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './styles.scss';
 
 
-export default function PokeCardList({ pokedex, index, id, shiny }) {
+export default function PokeCardList({ pokedex, id, shiny }) {
 
     
   return ( 
