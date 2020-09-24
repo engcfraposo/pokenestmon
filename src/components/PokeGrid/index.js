@@ -9,7 +9,7 @@ function PokeGrid({hasfilter, select}){
 
     const pokedex = () =>{
         axios
-        .get(`https://pokeapi.co/api/v2/pokemon?offset=0&limit=1000`)
+        .get(`https://pokeapi.co/api/v2/pokemon?offset=0&limit=649`)
         .then(function (response) {
           const { data } = response;
           const {results} = data
