@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import GoogleAd from 'react-google-ad';
 import moment from 'moment';
@@ -7,13 +7,15 @@ import './styles.scss';
 import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
-import {icons} from '../../services/nest';
+import {icons, regions} from '../../services/nest';
+
+
 
 const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png";
 
 function Main() {
     const [filter, setFilter] = useState('');
-    //const [select, setSelect] = useState('');
+    const [select, setSelect] = useState('');
     const [scroll, setScroll] = useState();
     const [number, setNumber] = useState(0);
 
@@ -75,6 +77,16 @@ function Main() {
           value={filter}
           id="search"
         />
+        <select onChange={(event) => setSelect(event.target.value)}>
+              <option value="">
+                Regiões
+              </option>
+              {regions.map((option) => (
+                <option key={option.region} value={option.region}>
+                  {option.region}
+                </option>
+              ))}
+            </select>
       </div>
     </div>
     {!scroll
@@ -136,7 +148,8 @@ function Main() {
           )}
       <div className={scroll === true ? ' city city-scroll' : 'city'} id="city">
       <PokeGrid 
-        hasfilter={filter}  
+        hasfilter={filter}
+        select={select}  
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
@@ -146,5 +159,5 @@ function Main() {
   );
 }
 
-export default Main;
+export default memo(Main);
 

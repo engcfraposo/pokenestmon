@@ -162,7 +162,7 @@
       .logo-pokemon {
         height: 70px;
         align-self: center;
-        margin-bottom: 10px;
+        margin: 10px 0;
         display: block!important;
         padding-bottom: 5px; 
       }
@@ -172,6 +172,7 @@
       width: 80%;
 
       input {
+        margin-bottom: 10px;
         background-image: url(../../images/search.png);
         background-repeat: no-repeat;
         background-size: 28px;
@@ -193,9 +194,9 @@
       select {
         border: 1px solid #707070;
         height: 60px;
-        width: auto;
+        width: 100%;
         border-radius: 10px;
-        margin: 5px 0 0 0;
+        margin: 0 0 10px 0;
         color: rgba(112,112,112,0.5);
         font-family: Quicksand-Bold;
       }

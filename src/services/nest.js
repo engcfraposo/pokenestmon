@@ -11,7 +11,7 @@ export const regions = [
     {region: "Hoenn"},
     {region: "Sinnoh"},
     {region: "Unova"},
-]
+  ]
 
 export const coordinates = [
     {

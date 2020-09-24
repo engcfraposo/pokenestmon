@@ -4,7 +4,7 @@ import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
 import {coordinates} from '../../services/nest'
 
-function PokeGrid({hasfilter}){
+function PokeGrid({hasfilter, select}){
     const [pokemon, setPokemon] = useState([])
     const [loading, setLoading] = useState(true);
 
@@ -21,6 +21,9 @@ function PokeGrid({hasfilter}){
         });  
     }
     
+    const hasSelect = coordinates
+    .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
+
     useEffect(() => {
         setLoading(false)
         pokedex()
@@ -46,7 +49,7 @@ function PokeGrid({hasfilter}){
         ?(
         <div className="grid-container">
           {filtro.map((pokedex, index) => 
-          coordinates.map((filterPoke) => 
+          hasSelect.map((filterPoke) => 
           pokedex.name.toLowerCase() === String(filterPoke.name).toLowerCase() 
             ?(
               <div key={index}>
