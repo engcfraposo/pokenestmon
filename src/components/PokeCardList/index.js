@@ -6,7 +6,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './styles.scss';
 
 
-export default function PokeCardList({ pokedex, index, id }) {
+export default function PokeCardList({ pokedex, index, id, shiny }) {
 
     
   return ( 
@@ -17,7 +17,7 @@ export default function PokeCardList({ pokedex, index, id }) {
           >
                 <div className="grid-box">
                 <img src={`https://cdn.traction.one/pokedex/pokemon/${id}.png`} alt={pokedex.name}  />
-                <strong className="wrap">{id} - {pokedex.name.toUpperCase()}</strong>
+                  <strong className="wrap">{id} - {pokedex.name.toUpperCase()}{shiny?("✨"):(false)}</strong>
                 {coordinates.map((coord) => coord.name.toLowerCase() === pokedex.name
                 ?(
                   <>

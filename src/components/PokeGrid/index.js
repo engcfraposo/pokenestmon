@@ -45,6 +45,7 @@ function PokeGrid({hasfilter}){
                 pokedex={pokedex}
                 index={index}
                 id={filterPoke.id}
+                shiny={filterPoke.shiny}
                 />
               </div>
             )

@@ -51,7 +51,7 @@ function Main() {
       <img src={'https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png'} alt="Logo" className="logo-pokemon" />
         <input
           onKeyPress={() => handleClick()}
-          placeholder="Buscar por pokemon(Em implementação)"
+          placeholder="Buscar por pokemon"
           type="text"
           onChange={(event) => setFilter(event.target.value)}
           value={filter}
