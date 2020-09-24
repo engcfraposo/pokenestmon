@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo } from 'react';
+import React, { useState, useEffect } from 'react';
 import PokeCardList from '../PokeCardList';
 import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
@@ -95,4 +95,4 @@ function PokeGrid({hasfilter, select}){
   );
 }
 
-export default memo(PokeGrid)
+export default PokeGrid
