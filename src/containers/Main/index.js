@@ -1,4 +1,4 @@
-import React, { useState, memo } from 'react';
+import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import GoogleAd from 'react-google-ad';
 import moment from 'moment';
@@ -7,14 +7,13 @@ import './styles.scss';
 import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
-import {icons, regions} from '../../services/nest';
+import {icons} from '../../services/nest';
 
 const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png";
 
 function Main() {
-    const [, setLoading] = useState(true);
     const [filter, setFilter] = useState('');
-    const [select, setSelect] = useState('');
+    //const [select, setSelect] = useState('');
     const [scroll, setScroll] = useState();
     const [number, setNumber] = useState(0);
 
@@ -43,7 +42,7 @@ function Main() {
           window.scroll(0, click.offsetTop);
         }
       }
-
+      
       const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
           // Render a complete state
@@ -76,19 +75,7 @@ function Main() {
           value={filter}
           id="search"
         />
-         <select onChange={(event) => setSelect(event.target.value)}>
-              <option key="" value="">
-                Todos
-              </option>
-              {regions.map((option) => (
-                <option key={option.region} value={option.region}>
-                  {option.region}
-                </option>
-              ))}
-        </select>
       </div>
-     
-      
     </div>
     {!scroll
           ?(
@@ -149,9 +136,7 @@ function Main() {
           )}
       <div className={scroll === true ? ' city city-scroll' : 'city'} id="city">
       <PokeGrid 
-        hasfilter={filter} 
-        select={select} 
-        isLoading={value => setLoading(value)} 
+        hasfilter={filter}  
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
@@ -161,5 +146,5 @@ function Main() {
   );
 }
 
-export default memo(Main);
+export default Main;
 
