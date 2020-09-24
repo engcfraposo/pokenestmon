@@ -1,3 +1,10 @@
+export const icons = [
+    {url: "https://cdn.bulbagarden.net/upload/6/66/025MS8.png"},
+    {url: "https://cdn.bulbagarden.net/upload/2/21/001MS8.png"},
+    {url: "https://cdn.bulbagarden.net/upload/d/dc/004MS8.png"},
+    {url: "https://cdn.bulbagarden.net/upload/d/dc/007MS8.png"},
+]
+
 export const coordinates = [
     {
     id: 63,

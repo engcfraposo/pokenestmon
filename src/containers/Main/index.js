@@ -1,15 +1,10 @@
 import React, { useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
+import GoogleAd from 'react-google-ad'
 import './styles.scss';
 import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
-
-const icons = [
-  {url: "https://cdn.bulbagarden.net/upload/6/66/025MS8.png"},
-  {url: "https://cdn.bulbagarden.net/upload/2/21/001MS8.png"},
-  {url: "https://cdn.bulbagarden.net/upload/d/dc/004MS8.png"},
-  {url: "https://cdn.bulbagarden.net/upload/d/dc/007MS8.png"},
-]
+import {icons} from '../../services/nest'
 
 function Main() {
     const [, setLoading] = useState(true);
@@ -75,10 +70,13 @@ function Main() {
           </Row>
           <Row className="default">
             <p className="clean">
-              É muito simples! Basta clicar em um dos botões de opção que irar copiar
+              É muito simples! Basta clicar em um dos botões de opção que irá copiar
               as coordenadas.
             </p>
           </Row>
+          <Row className="default">
+            <GoogleAd client="ca-pub-2532392971203416" slot="xxx" format="xxx" />
+          </Row>  
           <Row className="default">
             {icons.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
