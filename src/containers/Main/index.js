@@ -1,5 +1,5 @@
 import React, { useState, memo } from 'react';
-import { Col, Row, FormCheck } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import GoogleAd from 'react-google-ad';
 import moment from 'moment';
 import Countdown from "react-countdown";
@@ -16,6 +16,7 @@ const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_S
 function Main() {
     const [filter, setFilter] = useState('');
     const [select, setSelect] = useState('');
+    const [shinies, setShinies] = useState("true")
     const [scroll, setScroll] = useState();
     const [number, setNumber] = useState(0);
 
@@ -77,7 +78,30 @@ function Main() {
           value={filter}
           id="search"
         />
+      {!scroll?(
+        <>
         <select onChange={(event) => setSelect(event.target.value)}>
+                <option value="">
+                  Regiões
+                </option>
+                {regions.map((option) => (
+                  <option key={option.region} value={option.region}>
+                    {option.region}
+                  </option>
+                ))}
+          </select>
+          <select onChange={(event) => setShinies(event.target.value)}>
+                <option value={"true"}>
+                  Só Shinies
+                </option>
+                  <option value={""}>
+                    Todos
+                  </option>
+          </select>
+        </>
+      ):(
+        <div>
+      <select onChange={(event) => setSelect(event.target.value)}>
               <option value="">
                 Regiões
               </option>
@@ -87,6 +111,17 @@ function Main() {
                 </option>
               ))}
         </select>
+        <select onChange={(event) => setShinies(event.target.value)}>
+              <option value={"true"}>
+                Só Shinies
+              </option>
+                <option value={""}>
+                  Todos
+                </option>
+        </select>
+      </div>
+      )}
+      
       </div>  
     </div>
     {!scroll
@@ -149,7 +184,8 @@ function Main() {
       <div className={scroll === true ? ' city city-scroll' : 'city'} id="city">
       <PokeGrid 
         hasfilter={filter}
-        select={select}  
+        select={select}
+        shinies={shinies}  
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}

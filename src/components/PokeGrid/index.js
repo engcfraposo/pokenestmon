@@ -4,7 +4,7 @@ import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
 import {coordinates} from '../../services/nest'
 
-function PokeGrid({hasfilter, select}){
+function PokeGrid({hasfilter, select, shinies}){
     const [pokemon, setPokemon] = useState([])
     const [loading, setLoading] = useState(true);
 
@@ -20,10 +20,15 @@ function PokeGrid({hasfilter, select}){
           setPokemon(false);
         });  
     }
-    
-    const hasSelect = coordinates
-    .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
 
+       
+        const hasSelect = coordinates
+        .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
+        .filter((pokes) => pokes.shiny.toLowerCase().indexOf(String(shinies.toLowerCase())) > -1)
+
+        
+      
+    
     useEffect(() => {
         setLoading(false)
         pokedex()
@@ -67,13 +72,17 @@ function PokeGrid({hasfilter, select}){
       )
         :(
           <div className="grid-container">
-            {pokemon.map((pokedex, index) => coordinates.map((filterPoke) => pokedex.name.toLowerCase() === String(filterPoke.name).toLowerCase()
+            {pokemon.map((pokedex, index) => 
+            coordinates.map((filterPoke) => 
+            pokedex.name.toLowerCase() === 
+            String(filterPoke.name).toLowerCase()
               ?(
                 <div key={index}>
                   <PokeCardList
                   pokedex={pokedex}
                   index={index}
                   id={filterPoke.id}
+                  shiny={filterPoke.shiny}
                   />
                 </div>
               )

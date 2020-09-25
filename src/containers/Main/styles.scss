@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     z-index: 50;
-    height: 80px;
+    height: 100px;
     width: 100%;
     background: rgba(255, 255, 255, 1);
     display: flex;
@@ -26,6 +26,7 @@
 
     select {
       border: 1px solid #707070 !important;
+      width: auto;
       box-shadow: none !important;
     }
     
@@ -50,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     
     
 
@@ -73,7 +74,6 @@
       color: #707070;
       opacity: 0.5;
     }
-
     select {
       padding-left: 10px;
       box-shadow: 0px 3px 6px #00000057;
@@ -119,8 +119,6 @@
 @media only screen and (max-width: 750px) {
 .main {
   width: 100%;
-
-
   .main-first {
     height: 60%;
     background:#26DEA8;
@@ -141,7 +139,7 @@
       position: fixed;
       top: 0;
       z-index: 50;
-      height: 200px;
+      height: auto !important;
       width: 100%!important;
       background: rgba(255, 255, 255, 1);
       display: flex;
@@ -152,22 +150,7 @@
       transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
       box-shadow: 0px 3px 6px #00000057;
 
-      input {
-        border: 1px solid #707070 !important;
-        box-shadow: none !important;
-      }
-
-      input.form-check-input {
-        width: 10px !important;
-        height: 10px !important;
-        border: 1px solid #707070 !important;
-        box-shadow: none !important;
-      }
-
-      select {
-        border: 1px solid #707070 !important;
-        box-shadow: none !important;
-      }
+     
 
       .logo-pokemon {
         height: 70px;
@@ -188,7 +171,7 @@
         background-size: 28px;
         background-position: 95% 50%;
         padding-left: 15px;
-        height: 60px;
+        height: 60px !important;
         width: 100%;
         border-radius: 10px;
         border: 1px solid #707070;
@@ -204,9 +187,9 @@
       select {
         border: 1px solid #707070;
         height: 60px;
-        width: 100%;
+        width: auto;
         border-radius: 10px;
-        margin: 0 0 10px 0;
+        margin: 0 10px 10px 0;
         color: rgba(112,112,112,0.5);
         font-family: Quicksand-Bold;
       }

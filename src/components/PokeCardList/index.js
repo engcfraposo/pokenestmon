@@ -30,7 +30,7 @@ export default function PokeCardList({ pokedex, id, shiny }) {
           >
                 <div className="grid-box">
                 <img src={`https://cdn.traction.one/pokedex/pokemon/${id}.png`} alt={pokedex.name}  />
-                  <strong className="wrap">nº{id} <br/> {pokedex.name.toUpperCase()}{shiny?("✨"):(false)}</strong>
+                  <strong className="wrap">nº{id} <br/> {pokedex.name.toUpperCase()}{shiny === "true"?("✨"):(false)}</strong>
                 {coordinates.map((coord) => coord.name.toLowerCase() === pokedex.name
                 ?(
                   <>
