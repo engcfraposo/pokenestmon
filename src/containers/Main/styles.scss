@@ -2,7 +2,9 @@
 
 .main {
   height: 100vh;
-
+  .logo-pokemon {
+    display:none; 
+  }
   .full {
     position: fixed;
     top: 0;
@@ -15,7 +17,7 @@
     align-items: center;
     transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
     box-shadow: 0px 3px 6px #00000057;
-
+    
     
     input {
       border: 1px solid #707070 !important;
@@ -29,6 +31,7 @@
     
     .logo-pokemon {
       height: 70px;
+      display: block!important;
       padding-right: 15px; 
       
     }
@@ -43,12 +46,12 @@
     background-image: url('https://cdn.traction.one/pokedex/pokemon/25.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 30%;
+    background-size: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
     
 
     input {
@@ -150,6 +153,13 @@
       box-shadow: 0px 3px 6px #00000057;
 
       input {
+        border: 1px solid #707070 !important;
+        box-shadow: none !important;
+      }
+
+      input.form-check-input {
+        width: 10px !important;
+        height: 10px !important;
         border: 1px solid #707070 !important;
         box-shadow: none !important;
       }

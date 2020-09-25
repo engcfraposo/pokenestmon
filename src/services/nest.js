@@ -54,7 +54,7 @@ export const coordinates = [
     region: "Unova",
     shiny: true,
     name:"Blitzle",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 1,
@@ -159,7 +159,7 @@ export const coordinates = [
     region: "Hoenn",
     shiny: true,
     name:"Duskull",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 133,
@@ -194,7 +194,7 @@ export const coordinates = [
     region: "Unova",
     shiny: true,
     name:"Foongus",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 92,
@@ -264,7 +264,7 @@ export const coordinates = [
     region: "Unova",
     shiny: true,
     name:"Lillipup",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 370,
@@ -299,7 +299,7 @@ export const coordinates = [
     region: "Kanto",
     shiny: true,
     name:"Magnemite",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 296,
@@ -313,7 +313,7 @@ export const coordinates = [
     region: "Johto",
     shiny: true,
     name:"Mantine",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 307,
@@ -334,7 +334,7 @@ export const coordinates = [
     region: "Johto",
     shiny: true,
     name:"Misdreavus",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 258,
@@ -474,7 +474,7 @@ export const coordinates = [
     region: "Kanto",
     shiny: true,
     name:"Rhyhorn",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 302,
@@ -498,18 +498,18 @@ export const coordinates = [
     coordinates: ["30.6416,-96.2966","41.7971,140.7568","45.7802,4.8497"]
     },
     {
-    id: 273,
+    id: 86,
     region: "Kanto",
     shiny: true,
     name:"Seel",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 90,
     region: "Kanto",
     shiny: true,
     name:"Shellder",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 285,
@@ -635,7 +635,7 @@ export const coordinates = [
     region: "Kanto",
     shiny: true,
     name:"Tentacool",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 498,
@@ -649,7 +649,7 @@ export const coordinates = [
     region: "Hoenn",
     shiny: true,
     name:"Torchic",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 158,
@@ -663,14 +663,14 @@ export const coordinates = [
     region: "Hoenn",
     shiny: true,
     name:"Treecko",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 387,
     region: "Sinnoh",
     shiny: true,
     name:"Turtwig",
-    coordinates: []
+    coordinates: ["nothing"]
     },
     {
     id: 100,

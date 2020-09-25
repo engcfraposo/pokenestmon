@@ -1,5 +1,5 @@
 import React, { useState, memo } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, FormCheck } from 'react-bootstrap';
 import GoogleAd from 'react-google-ad';
 import moment from 'moment';
 import Countdown from "react-countdown";
@@ -86,8 +86,8 @@ function Main() {
                   {option.region}
                 </option>
               ))}
-            </select>
-      </div>
+        </select>
+      </div>  
     </div>
     {!scroll
           ?(
