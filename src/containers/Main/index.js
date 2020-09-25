@@ -1,12 +1,12 @@
 import React, { useState, memo } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import GoogleAd from 'react-google-ad';
 import moment from 'moment';
 import Countdown from "react-countdown";
 import './styles.scss';
 import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
+import {FirstAds} from '../../ads/FirstAds';
 import {icons, regions} from '../../services/nest';
 
 
@@ -171,9 +171,6 @@ function Main() {
             <Countdown date={moment('30/09/2020 23:59:59', 'DD/MM/YYYY hh:mm:ss')} renderer={renderer} />
           </Row>
           <Row className="default">
-            <GoogleAd client="ca-pub-2532392971203416" slot="xxx" format="xxx" />
-          </Row>  
-          <Row className="default">
             {icons.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
             ))}
@@ -189,6 +186,7 @@ function Main() {
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
+      {/**<FirstAds />*/}
       </div>
   </div>
 </>
