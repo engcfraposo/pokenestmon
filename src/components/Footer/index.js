@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import AdSense from 'react-adsense';
 import './styles.scss';
 
 function Footer() {
@@ -9,12 +10,7 @@ function Footer() {
     <div>
      Desenvolvido por: <a href="http://github.com/engcfraposo">@engcfraposo</a>
     </div>
-    <ins className="adsbygoogle"
-     data-ad-client="ca-pub-2532392971203416"
-     data-ad-slot="4048427238"
-     data-ad-format="auto"
-     data-full-width-responsive="true">
-     </ins>
+     <AdSense.Google client="ca-pub-2532392971203416" slot="4048427238" format="auto" responsive />
     </Container>
   );
 }
