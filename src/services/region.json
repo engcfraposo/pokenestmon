@@ -1,0 +1,9 @@
+{
+   "local":[
+    {"region": "Kanto"},
+    {"region": "Johto"},
+    {"region": "Hoenn"},
+    {"region": "Sinnoh"},
+    {"region": "Unova"}
+  ]
+}

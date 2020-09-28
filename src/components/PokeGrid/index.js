@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PokeCardList from '../PokeCardList';
 import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
-import {coordinates} from '../../services/nest'
+import nest from '../../services/nest.json'
 
 function PokeGrid({hasfilter, select, shinies}){
     const [pokemon, setPokemon] = useState([])
@@ -22,7 +22,7 @@ function PokeGrid({hasfilter, select, shinies}){
     }
 
        
-        const hasSelect = coordinates
+        const hasSelect = nest.pokemon
         .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
         .filter((pokes) => pokes.shiny.toLowerCase().indexOf(String(shinies.toLowerCase())) > -1)
 
@@ -73,7 +73,7 @@ function PokeGrid({hasfilter, select, shinies}){
         :(
           <div className="grid-container">
             {pokemon.map((pokedex, index) => 
-            coordinates.map((filterPoke) => 
+            nest.pokemon.map((filterPoke) => 
             pokedex.name.toLowerCase() === 
             String(filterPoke.name).toLowerCase()
               ?(

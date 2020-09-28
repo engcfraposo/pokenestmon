@@ -7,9 +7,8 @@ import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
 import {FirstAds} from '../../ads/FirstAds';
-import {icons, regions} from '../../services/nest';
-
-const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png";
+import region from '../../services/region.json';
+import icons from '../../services/icons.json';
 
 function Main() {
     const [filter, setFilter] = useState('');
@@ -67,7 +66,7 @@ function Main() {
     <div className="main">
     <div className="main-first">
       <div className={`ajuste${scroll === true ? ' full' : ''}`}>
-        <img src={imageUrl} alt="Logo" className="logo-pokemon" />
+        <img src={icons.pokeball} alt="Logo" className="logo-pokemon" />
         <input
           onKeyPress={() => handleClick()}
           placeholder="Buscar por pokemon"
@@ -82,7 +81,7 @@ function Main() {
                 <option value="">
                   Regiões
                 </option>
-                {regions.map((option) => (
+                {region.local.map((option) => (
                   <option key={option.region} value={option.region}>
                     {option.region}
                   </option>
@@ -103,7 +102,7 @@ function Main() {
               <option value="">
                 Regiões
               </option>
-              {regions.map((option) => (
+              {region.local.map((option) => (
                 <option key={option.region} value={option.region}>
                   {option.region}
                 </option>
@@ -127,7 +126,7 @@ function Main() {
             <div className="main-last">
         <Col className="text-center">
           <Row className="default">
-            {icons.map((icon, index)=>(
+            {icons.pokemon.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
             ))}
           </Row>
@@ -144,7 +143,7 @@ function Main() {
             </p>
           </Row>
           <Row className="default">
-            {icons.map((icon, index)=>(
+            {icons.pokemon.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
             ))}
           </Row>
@@ -155,7 +154,7 @@ function Main() {
             <div className="main-last" id="main-last">
         <Col className="text-center">
           <Row className="default">
-            {icons.map((icon, index)=>(
+            {icons.pokemon.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
             ))}
           </Row>
@@ -169,7 +168,7 @@ function Main() {
             <Countdown date={moment('30/09/2020 23:59:59', 'DD/MM/YYYY hh:mm:ss')} renderer={renderer} />
           </Row>
           <Row className="default">
-            {icons.map((icon, index)=>(
+          {icons.pokemon.map((icon, index)=>(
               <img key={index} src={icon.url} alt={icon.url}/>
             ))}
           </Row>
@@ -184,7 +183,7 @@ function Main() {
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
-      {/*<FirstAds />*/}
+      <FirstAds />
       </div>
   </div>
 </>

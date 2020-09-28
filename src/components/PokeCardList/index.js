@@ -3,7 +3,7 @@ import { ButtonBase} from '@material-ui/core';
 import ButtonCopy from '../ButtonCopy';
 import PokemonImage from '../PokemonImage';
 import styled from 'styled-components';
-import {coordinates} from '../../services/nest';
+import nest from '../../services/nest.json'
 import './styles.scss';
 
 const ButtonDisabled = styled(ButtonBase)`
@@ -32,7 +32,7 @@ export default function PokeCardList({ pokedex, id, shiny }) {
                 {/*<img src={`https://cdn.traction.one/pokedex/pokemon/${id}.png`} alt={pokedex.name}  />*/}
                 <PokemonImage id={id} />
                   <strong className="wrap">nº{id} <br/> {pokedex.name.toUpperCase()}{shiny === "true"?("✨"):(false)}</strong>
-                {coordinates.map((coord) => coord.name.toLowerCase() === pokedex.name
+                {nest.pokemon.map((coord) => coord.name.toLowerCase() === pokedex.name
                 ?(
                   <>
                     {coord.coordinates.map((region, index) => !region.includes("nothing")
