@@ -9,8 +9,6 @@ import ScrollToTop from '../../components/ScrollToTop';
 import {FirstAds} from '../../ads/FirstAds';
 import {icons, regions} from '../../services/nest';
 
-
-
 const imageUrl = "https://cdn.bulbagarden.net/upload/7/79/Dream_Pok%C3%A9_Ball_Sprite.png";
 
 function Main() {

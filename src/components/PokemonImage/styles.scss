@@ -1,0 +1,15 @@
+div{
+    .animated {
+        animation: scrollTop 0.5s alternate ease infinite !important; 
+}
+
+@keyframes scrollTop {
+    from {
+        transform: translateY(2px);
+    }
+    to {
+        transform: translateY(-1px);
+    }
+}
+}
+    

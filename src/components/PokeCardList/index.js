@@ -1,9 +1,9 @@
 import React from 'react';
-import { toast } from 'react-toastify';
 import { ButtonBase} from '@material-ui/core';
+import ButtonCopy from '../ButtonCopy';
+import PokemonImage from '../PokemonImage';
 import styled from 'styled-components';
 import {coordinates} from '../../services/nest';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './styles.scss';
 
 const ButtonDisabled = styled(ButtonBase)`
@@ -29,18 +29,19 @@ export default function PokeCardList({ pokedex, id, shiny }) {
             className="grid-items"
           >
                 <div className="grid-box">
-                <img src={`https://cdn.traction.one/pokedex/pokemon/${id}.png`} alt={pokedex.name}  />
+                {/*<img src={`https://cdn.traction.one/pokedex/pokemon/${id}.png`} alt={pokedex.name}  />*/}
+                <PokemonImage id={id} />
                   <strong className="wrap">nº{id} <br/> {pokedex.name.toUpperCase()}{shiny === "true"?("✨"):(false)}</strong>
                 {coordinates.map((coord) => coord.name.toLowerCase() === pokedex.name
                 ?(
                   <>
                     {coord.coordinates.map((region, index) => !region.includes("nothing")
                        ?(
-                        <CopyToClipboard key={index}text={region}>
-                          <ButtonBase onClick={() => toast.success('Copiado')}>
-                            Opção {index+1}
-                          </ButtonBase>
-                        </CopyToClipboard>
+                        <ButtonCopy 
+                          key={region} 
+                          region={region} 
+                          index={index}
+                        />
                        )
                        :(
                         <ButtonDisabled disabled>

@@ -58,12 +58,12 @@ function PokeGrid({hasfilter, select, shinies}){
           pokedex.name.toLowerCase() === String(filterPoke.name).toLowerCase() 
             ?(
               <div key={index}>
-                <PokeCardList
-                pokedex={pokedex}
-                index={index}
-                id={filterPoke.id}
-                shiny={filterPoke.shiny}
-                />
+                  <PokeCardList
+                  pokedex={pokedex}
+                  index={index}
+                  id={filterPoke.id}
+                  shiny={filterPoke.shiny}
+                  />
               </div>
             )
             :(false)
@@ -77,14 +77,12 @@ function PokeGrid({hasfilter, select, shinies}){
             pokedex.name.toLowerCase() === 
             String(filterPoke.name).toLowerCase()
               ?(
-                <div key={index}>
                   <PokeCardList
                   pokedex={pokedex}
                   index={index}
                   id={filterPoke.id}
                   shiny={filterPoke.shiny}
                   />
-                </div>
               )
               :(false)
             ))}
