@@ -6,7 +6,6 @@ import './styles.scss';
 import PokeGrid from '../../components/PokeGrid';
 import Footer from '../../components/Footer';
 import ScrollToTop from '../../components/ScrollToTop';
-import {FirstAds} from '../../ads/FirstAds';
 import region from '../../services/region.json';
 import icons from '../../services/icons.json';
 
@@ -183,7 +182,6 @@ function Main() {
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
-      <FirstAds />
       </div>
   </div>
 </>
