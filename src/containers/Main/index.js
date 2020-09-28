@@ -184,7 +184,7 @@ function Main() {
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}
-      {/**<FirstAds />*/}
+      <FirstAds />
       </div>
   </div>
 </>
