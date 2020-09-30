@@ -13,6 +13,7 @@ function Main() {
     const [filter, setFilter] = useState('');
     const [select, setSelect] = useState('');
     const [shinies, setShinies] = useState("true")
+    const [disponible, setDisponible] = useState("nothing")
     const [scroll, setScroll] = useState();
     const [number, setNumber] = useState(0);
 
@@ -94,6 +95,14 @@ function Main() {
                     Todos
                   </option>
           </select>
+          <select onChange={(event) => setDisponible(event.target.value)}>
+              <option value={"nothing"}>
+                Disponiveis
+              </option>
+                <option value={""}>
+                  Todos
+                </option>
+        </select>
         </>
       ):(
         <div>
@@ -110,6 +119,14 @@ function Main() {
         <select onChange={(event) => setShinies(event.target.value)}>
               <option value={"true"}>
                 Só Shinies
+              </option>
+                <option value={""}>
+                  Todos
+                </option>
+        </select>
+         <select onChange={(event) => setDisponible(event.target.value)}>
+              <option value={"nothing"}>
+                Disponiveis
               </option>
                 <option value={""}>
                   Todos
@@ -178,7 +195,8 @@ function Main() {
       <PokeGrid 
         hasfilter={filter}
         select={select}
-        shinies={shinies}  
+        shinies={shinies}
+        disponible={disponible}  
         />
       <Footer />
       {scroll?(<ScrollToTop />):(false)}

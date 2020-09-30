@@ -4,7 +4,7 @@ import { Container, Spinner } from 'react-bootstrap';
 import axios from 'axios';
 import nest from '../../services/nest.json'
 
-function PokeGrid({hasfilter, select, shinies}){
+function PokeGrid({hasfilter, select, shinies, disponible}){
     const [pokemon, setPokemon] = useState([])
     const [loading, setLoading] = useState(true);
 
@@ -25,7 +25,8 @@ function PokeGrid({hasfilter, select, shinies}){
         const hasSelect = nest.pokemon
         .filter((pokes) => pokes.region.toLowerCase().indexOf(String(select.toLowerCase())) > -1)
         .filter((pokes) => pokes.shiny.toLowerCase().indexOf(String(shinies.toLowerCase())) > -1)
-
+        .filter((pokes) => pokes.coordinates.filter((coord) => coord === disponible) > -1)
+        
         
       
     
