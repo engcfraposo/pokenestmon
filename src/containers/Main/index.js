@@ -181,7 +181,7 @@ function Main() {
             <p>Proxima migração de ninho</p>
           </Row>
             <Row className="default">
-            <Countdown date={moment('30/09/2020 23:59:59', 'DD/MM/YYYY hh:mm:ss')} renderer={renderer} />
+            <Countdown date={moment('15/10/2020 23:59:59', 'DD/MM/YYYY hh:mm:ss')} renderer={renderer} />
           </Row>
           <Row className="default">
           {icons.pokemon.map((icon, index)=>(
