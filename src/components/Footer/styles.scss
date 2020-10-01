@@ -2,7 +2,9 @@
 
   .footer {
     height: 100px;
-    background: #ffffff 0% 0% no-repeat padding-box !important;
+    border-radius: 10px !important;
+    border: 5px solid $green !important;
+    background: #E6E6FE 0% no-repeat padding-box !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,6 +13,3 @@
     }
   }
 
-  .adsbygoogle{
-    display:block;
-  }

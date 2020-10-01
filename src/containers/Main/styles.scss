@@ -11,7 +11,9 @@
     z-index: 50;
     height: 100px;
     width: 100%;
-    background: rgba(255, 255, 255, 1);
+    background: #E6E6FE 0% no-repeat padding-box !important;
+    border-radius: 10px !important;
+    border: 5px solid $green !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +144,8 @@
       height: auto !important;
       width: 100%!important;
       background: rgba(255, 255, 255, 1);
+      border-radius: 10px !important;
+      border: 5px solid $green !important;
       display: flex;
       justify-content: center;
       align-items: flex-start;

@@ -37,8 +37,8 @@
         },
         {
         "id": 522,
-        "region": "false",
-        "shiny": "true",
+        "region": "Unova",
+        "shiny": "false",
         "name":"Blitzle",
         "coordinates": ["nothing"]
         },
@@ -178,7 +178,7 @@
         {
         "id": 590,
         "region": "Unova",
-        "shiny": "true",
+        "shiny": "false",
         "name":"Foongus",
         "coordinates": ["nothing"]
         },
@@ -192,7 +192,7 @@
         {
         "id": 203,
         "region": "Johto",
-        "shiny": "true",
+        "shiny": "false",
         "name":"Girafarig",
         "coordinates": ["nothing"]
         },
@@ -297,7 +297,7 @@
         {
         "id": 226,
         "region": "Johto",
-        "shiny": "true",
+        "shiny": "false",
         "name":"Mantine",
         "coordinates": ["nothing"]
         },
@@ -520,9 +520,9 @@
         },
         {
         "id": 227,
-        "region": "Kanto",
+        "region": "Hoenn",
         "shiny": "true",
-        "name":"Hoenn",
+        "name":"Skarmory",
         "coordinates": ["nothing"]
         },
         {
