@@ -12,7 +12,7 @@ import icons from '../../services/icons.json';
 function Main() {
     const [filter, setFilter] = useState('');
     const [select, setSelect] = useState('');
-    const [shinies, setShinies] = useState("")
+    const [shinies, setShinies] = useState("true")
     const [disponible, setDisponible] = useState("nothing")
     const [scroll, setScroll] = useState();
     const [number, setNumber] = useState(0);
