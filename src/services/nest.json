@@ -5,7 +5,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Abra",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.3479,136.9880","43.0446,141.4972"]
         },
         {
         "id": 190,    
@@ -47,7 +47,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Bulbasaur",
-        "coordinates": ["nothing"]
+        "coordinates": ["33.7053,-118.0051","33.8113,-84.1453","35.6416,139.8548","37.8056,-122.3255"]
         },
         {
         "id": 427,
@@ -68,14 +68,14 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Charmander",
-        "coordinates": ["nothing"]
+        "coordinates": ["42.3383,-82.9854","44.0212,-88.5179","50.6933,4.0473"]
         },
         {
         "id": 152,
         "region": "Johto",
         "shiny": "true",
         "name":"Chikorita",
-        "coordinates": ["nothing"]
+        "coordinates": ["13.7308,100.5406","19.4224,-99.1891","35.7340,139.7463"]
         },
         {
         "id": 390,
@@ -89,14 +89,14 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Chinchou",
-        "coordinates": ["nothing"]
+        "coordinates": ["37.1709,-93.3270"]
         },
         {
         "id": 35,
         "region": "Kanto",
         "shiny": "true",
         "name":"Clefairy",
-        "coordinates": ["nothing"]
+        "coordinates": ["49.4841,8.4939","51.7484,-0.3498"]
         },
         {
         "id": 341,
@@ -124,21 +124,21 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Cyndaquil",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.3705,137.0293","37.8055,-122.2577"]
         },
         {
         "id": 84,
         "region": "Kanto",
         "shiny": "true",
         "name":"Doduo",
-        "coordinates": ["nothing"]
+        "coordinates": ["51.4816,-0.1579"]
         },
         {
         "id": 206,
         "region": "Johto",
         "shiny": "true",
         "name":"Dunsparce",
-        "coordinates": ["nothing"]
+        "coordinates": ["23.0669,120.2977","37.3164,126.8591","37.3419,-121.9039"]
         },
         {
         "id": 355,
@@ -152,14 +152,14 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Eevee",
-        "coordinates": ["nothing"]
+        "coordinates": ["-41.3045,174.7906","43.2904,-79.8754","44.8612,-93.6175"]
         },
         {
         "id": 125,
         "region": "Kanto",
         "shiny": "false",
         "name":"Electabuzz",
-        "coordinates": ["nothing"]
+        "coordinates": ["39.2417,-76.8582","39.9835,-75.2104","41.8709,-71.3469","47.7103,-122.3671"]
         },
         {
         "id": 309,
@@ -173,7 +173,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Exeggcute",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.1467,-118.2902","35.8414,128.5603","44.8592,-92.7744"]
         },
         {
         "id": 590,
@@ -187,14 +187,14 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Gastly",
-        "coordinates": ["nothing"]
+        "coordinates": ["-33.8960,151.2349"]
         },
         {
         "id": 203,
         "region": "Johto",
         "shiny": "false",
         "name":"Girafarig",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.6516,135.5094","39.6530,-84.2254","41.7971,140.7568"]
         },
         {
         "id": 58,
@@ -215,21 +215,21 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Horsea",
-        "coordinates": ["nothing"]
+        "coordinates": ["50.7064,7.1478"]
         },
         {
         "id": 124,
         "region": "Kanto",
         "shiny": "false",
         "name":"Jynx",
-        "coordinates": ["nothing"]
+        "coordinates": ["-36.8979,174.7849","49.9264,4.5214"]
         },
         {
         "id": 140,
         "region": "Kanto",
         "shiny": "true",
         "name":"Kabuto",
-        "coordinates": ["nothing"]
+        "coordinates": ["25.6792,-100.2856","36.8261,-76.1265"]
         },
         {
         "id": 401,
@@ -264,28 +264,28 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Machop",
-        "coordinates": ["nothing"]
+        "coordinates": ["-26.5072,-49.1277","34.7194,137.4342"]
         },
         {
         "id": 129,
         "region": "Kanto",
         "shiny": "true",
         "name":"Magikarp",
-        "coordinates": ["nothing"]
+        "coordinates": ["-25.7348,28.1888","29.9853,-90.0966","36.2426,139.5435","37.5285,126.9326"]
         },
         {
         "id": 126,
         "region": "Kanto",
         "shiny": "true",
         "name":"Magmar",
-        "coordinates": ["nothing"]
+        "coordinates": ["22.5359,120.5903","51.4155,-0.3368"]
         },
         {
         "id": 81,
         "region": "Kanto",
         "shiny": "true",
         "name":"Magnemite",
-        "coordinates": ["nothing"]
+        "coordinates": ["-6.3028,106.8947","30.6416,-96.2966","37.5792,126.9768"]
         },
         {
         "id": 296,
@@ -320,7 +320,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Misdreavus",
-        "coordinates": ["nothing"]
+        "coordinates": ["37.7201,-122.4131","40.7709,-73.9726","43.6534,-87.7282","45.5154,-122.7169"]
         },
         {
         "id": 258,
@@ -348,7 +348,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Oddish",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.0152,-118.2869","35.6234,139.6629","36.9391,140.9176"]
         },
         {
         "id": 138,
@@ -362,7 +362,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Onix",
-        "coordinates": ["nothing"]
+        "coordinates": ["-7.2517,112.8036","36.0374,-115.0543","48.8772,2.2650"]
         },
         {
         "id": 501,
@@ -383,14 +383,14 @@
         "region": "Johto",
         "shiny": "false",
         "name":"Phanpy",
-        "coordinates": ["nothing"]
+        "coordinates": ["49.2395,-123.1352"]
         },
         {
         "id": 25,
         "region": "Kanto",
         "shiny": "true",
         "name":"Pikachu",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.5393,135.4392","38.6400,-90.2846","41.9377,-87.6366"]
         },
         {
         "id": 127,
@@ -425,7 +425,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Ponyta",
-        "coordinates": ["nothing"]
+        "coordinates": ["17.0180,99.7020","42.3542,-71.0705","54.5141,-1.5579"]
         },
         {
         "id": 261,
@@ -439,7 +439,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Psyduck",
-        "coordinates": ["nothing"]
+        "coordinates": ["32.4980,-116.9394"]
         },
         {
         "id": 509,
@@ -453,14 +453,14 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Qwilfish",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.7148,137.6033","41.5721,-93.6385","42.4187,-82.2084","52.0571,4.2890"]
         },
         {
         "id": 111,
         "region": "Kanto",
         "shiny": "true",
         "name":"Rhyhorn",
-        "coordinates": ["nothing"]
+        "coordinates": ["24.0258,-104.6869","35.7082,139.3946","48.8283,2.4194"]
         },
         {
         "id": 302,
@@ -474,7 +474,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Scyther",
-        "coordinates": ["nothing"]
+        "coordinates": ["-31.9617,115.8424","-36.8622,174.7735","34.0349,-118.0570","34.9353,134.9404"]
         },
         {
         "id": 273,
@@ -495,7 +495,7 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Shellder",
-        "coordinates": ["nothing"]
+        "coordinates": ["52.2132,21.0340"]
         },
         {
         "id": 285,
@@ -509,7 +509,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Shuckle",
-        "coordinates": ["nothing"]
+        "coordinates": ["51.5064,-0.1567"]
         },
         {
         "id": 353,
@@ -523,7 +523,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Skarmory",
-        "coordinates": ["nothing"]
+        "coordinates": ["26.6882,127.8753","34.7630,135.7047","34.8091,135.5324","35.4214,137.0997","39.3222,-76.6413"]
         },
         {
         "id": 300,
@@ -537,7 +537,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Sneasel",
-        "coordinates": ["nothing"]
+        "coordinates": ["40.6897,-74.0148","51.1551,6.8704"]
         },
         {
         "id": 495,
@@ -551,7 +551,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Snubbull",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.6727,139.6950"]
         },
         {
         "id": 325,
@@ -565,14 +565,14 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Squirtle",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.6829,135.8473","37.3257,-121.8612"]
         },
         {
         "id": 234,
         "region": "Johto",
         "shiny": "true",
         "name":"Stantler",
-        "coordinates": ["nothing"]
+        "coordinates": ["43.4954,-87.7941","49.8697,-97.2390"]
         },
         {
         "id": 434,
@@ -586,7 +586,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Sudowoodo",
-        "coordinates": ["nothing"]
+        "coordinates": ["40.4095,-3.6797"]
         },
         {
         "id": 283,
@@ -607,21 +607,21 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Swinub",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.2273,135.1711","36.9016,-76.2002","37.7685,-122.4827","51.5325,-0.1505"]
         },
         {
         "id": 216,
         "region": "Johto",
         "shiny": "true",
         "name":"Teddiursa",
-        "coordinates": ["nothing"]
+        "coordinates": ["36.3696,140.4545","53.5959,10.0152"]
         },
         {
         "id": 72,
         "region": "Kanto",
         "shiny": "true",
         "name":"Tentacool",
-        "coordinates": ["nothing"]
+        "coordinates": ["48.1587,11.5975"]
         },
         {
         "id": 498,
@@ -642,7 +642,7 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Totodile",
-        "coordinates": ["nothing"]
+        "coordinates": ["-18.9102,-48.2322","-37.7874,144.9508"]
         },
         {
         "id": 252,
@@ -663,14 +663,14 @@
         "region": "Kanto",
         "shiny": "true",
         "name":"Voltorb",
-        "coordinates": ["nothing"]
+        "coordinates": ["-6.1255,106.8364","37.5504,126.9924","45.5592,-73.5580"]
         },
         {
         "id": 37,
         "region": "Kanto",
         "shiny": "false",
         "name":"Vulpix",
-        "coordinates": ["nothing"]
+        "coordinates": ["-22.9059,-43.2250","27.3812,-82.5606"]
         },
         {
         "id": 320,
@@ -691,14 +691,14 @@
         "region": "Johto",
         "shiny": "true",
         "name":"Wobbuffet",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.7609,140.0615","36.4901,139.9973","47.6815,-122.2501"]
         },
         {
         "id": 193,
         "region": "Johto",
         "shiny": "true",
         "name":"Yanma",
-        "coordinates": ["nothing"]
+        "coordinates": ["32.0389,-102.0742","35.2702,136.9892","36.2461,-115.1509","37.8056,-122.4279","39.6960,-104.9699","40.7737,-96.7724","51.5060,-0.1794"]
         }
     ]
 }
