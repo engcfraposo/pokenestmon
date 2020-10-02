@@ -19,7 +19,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Anorith",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.1588,131.4383"]
         },
         {
         "id": 343,
@@ -33,14 +33,14 @@
         "region": "Sinnoh",
         "shiny": "false",
         "name":"Bidoof",
-        "coordinates": ["nothing"]
+        "coordinates": ["3.1421,101.6867","37.6555,126.7672","41.9138,12.4860"]
         },
         {
         "id": 522,
         "region": "Unova",
         "shiny": "false",
         "name":"Blitzle",
-        "coordinates": ["-23.587713, -46.658521"]
+        "coordinates": ["-23.587713, -46.658521","39.8903,32.8430"]
         },
         {
         "id": 1,
@@ -54,14 +54,14 @@
         "region": "Sinnoh",
         "shiny": "true",
         "name":"Buneary",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.9324,-85.2549","4.5723,-74.1303","51.7755,0.1002"]
         },
         {
         "id": 318,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Carvanha",
-        "coordinates": ["nothing"]
+        "coordinates": ["-6.5982,106.7994","40.6480,-73.5132","40.6552,-73.5122","52.0597,-0.7273"]
         },
         {
         "id": 4,
@@ -82,7 +82,7 @@
         "region": "Sinnoh",
         "shiny": "true",
         "name":"Chimchar",
-        "coordinates": ["nothing"]
+        "coordinates": ["44.9808,-93.1472"]
         },
         {
         "id": 170,
@@ -103,14 +103,14 @@
         "region": "Hoenn",
         "shiny": "false",    
         "name":"Corphish",
-        "coordinates": ["nothing"]
+        "coordinates": ["38.8780,-94.7011","43.7204,-79.3581","45.7802,4.8497"]
         },
         {
         "id": 453,
         "region": "Sinnoh",
         "shiny": "true",
         "name":"Croagunk",
-        "coordinates": ["nothing"]
+        "coordinates": ["22.6560,120.2849","36.3727,140.2634","37.8814,139.0614","42.5286,-83.6755","43.7928,87.6006"]
         },
         {
         "id": 104,
@@ -145,7 +145,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Duskull",
-        "coordinates": ["nothing"]
+        "coordinates": ["1.3151,103.8163"]
         },
         {
         "id": 133,
@@ -166,7 +166,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Electrike",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.8822,137.9413","43.2399,-79.8316"]
         },
         {
         "id": 102,
@@ -180,7 +180,7 @@
         "region": "Unova",
         "shiny": "false",
         "name":"Foongus",
-        "coordinates": ["nothing"]
+        "coordinates": ["33.5193,-79.0994","40.8644,-73.8779"]
         },
         {
         "id": 92,
@@ -208,7 +208,7 @@
         "region": "Sinnoh",
         "shiny": "true",
         "name":"Hippopotas",
-        "coordinates": ["nothing"]
+        "coordinates": ["-20.4523,-54.5707"]
         },
         {
         "id": 116,
@@ -234,30 +234,30 @@
         {
         "id": 401,
         "region": "Sinnoh",
-        "shiny": "false",
+        "shiny": "true",
         "name":"Kricketot",
-        "coordinates": ["nothing"]
+        "coordinates": ["32.7750,-96.7599","43.6466,-79.4632"]
         },
         {
         "id": 345,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Lileep",
-        "coordinates": ["nothing"]
+        "coordinates": ["1.2741,103.8172","34.0324,-84.6323","49.3841,8.5635"]
         },
         {
         "id": 506,
         "region": "Unova",
         "shiny": "true",
         "name":"Lillipup",
-        "coordinates": ["nothing"]
+        "coordinates": ["40.6535,-74.2461","40.7472,-73.8455","42.1486,-87.7903"]
         },
         {
         "id": 370,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Luvdisc",
-        "coordinates": ["nothing"]
+        "coordinates": ["-37.0090,174.9069","43.6222,-116.3460","44.4695,26.0844"]
         },
         {
         "id": 66,
@@ -292,7 +292,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Makuhita",
-        "coordinates": ["nothing"]
+        "coordinates": ["51.4708,7.4709"]
         },
         {
         "id": 226,
@@ -306,14 +306,14 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Meditite",
-        "coordinates": ["nothing"]
+        "coordinates": ["51.4921,6.8592","52.4852,4.9783"]
         },
         {
         "id": 312,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Minun",
-        "coordinates": ["nothing"]
+        "coordinates": ["1.3786,103.8971","49.3015,-123.1334"]
         },
         {
         "id": 200,
@@ -327,14 +327,14 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Mudkip",
-        "coordinates": ["nothing"]
+        "coordinates": ["33.3234,130.3828","39.7778,-75.5000","47.5273,19.0501"]
         },
         {
         "id": 299,
         "region": "Hoenn",
         "shiny": "false",
         "name":"Nosepass",
-        "coordinates": ["nothing"]
+        "coordinates": ["-22.9674,-43.2290","38.5494,-90.4139","52.1581,-106.5844"]
         },
         {
         "id": 322,
@@ -369,14 +369,14 @@
         "region": "Unova",
         "shiny": "false",
         "name":"Oshawott",
-        "coordinates": ["nothing"]
+        "coordinates": ["36.0688,-115.1137","36.1503,-86.8160","39.8401,-77.2465","39.8723,-75.1894","55.7958,37.6760"]
         },
         {
         "id": 504,
         "region": "Unova",
         "shiny": "true",
         "name":"Patrat",
-        "coordinates": ["nothing"]
+        "coordinates": ["12.9751,77.5923","34.9577,137.1600","35.1731,137.0903","39.8755,-75.6710","45.0218,-93.4335"]
         },
         {
         "id": 231,
@@ -411,7 +411,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Plusle",
-        "coordinates": ["nothing"]
+        "coordinates": ["12.7640,100.9345","29.7172,-95.3944","35.9179,139.6316","37.5499,127.0822","41.9056,-87.7002","48.1508,16.4026","52.4214,16.9359"]
         },
         {
         "id": 60,
@@ -432,7 +432,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Poochyena",
-        "coordinates": ["nothing"]
+        "coordinates": ["32.7311,-117.1505","35.6787,139.7165","37.8855,58.3870"]
         },
         {
         "id": 54,
@@ -446,7 +446,7 @@
         "region": "Unova",
         "shiny": "false",
         "name":"Purrloin",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.7167,139.7741","38.8897,-77.0488","44.0406,-91.6389","51.5643,-0.1647"]
         },
         {
         "id": 211,
@@ -467,7 +467,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Sableye",
-        "coordinates": ["nothing"]
+        "coordinates": ["42.4282,-83.5293"]
         },
         {
         "id": 123,
@@ -481,7 +481,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Seedot",
-        "coordinates": ["nothing"]
+        "coordinates": ["25.0294,121.5357","38.5147,-90.2776","8.9976,-79.5084"]
         },
         {
         "id": 86,
@@ -502,7 +502,7 @@
         "region": "Hoenn",
         "shiny": "false",
         "name":"Shroomish",
-        "coordinates": ["nothing"]
+        "coordinates": ["-37.7314,144.8378"]
         },
         {
         "id": 213,
@@ -516,7 +516,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Shuppet",
-        "coordinates": ["nothing"]
+        "coordinates": ["37.5170,127.1209","40.8041,-73.9997","48.8063,2.1151"]
         },
         {
         "id": 227,
@@ -530,7 +530,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Skitty",
-        "coordinates": ["nothing"]
+        "coordinates": ["-38.1192,145.3080","41.3595,2.1558","44.9576,-89.6492"]
         },
         {
         "id": 215,
@@ -544,7 +544,7 @@
         "region": "Unova",
         "shiny": "false",
         "name":"Snivy",
-        "coordinates": ["nothing"]
+        "coordinates": ["-22.9261,-43.1703","45.0146,-74.7273","50.6404,3.0426","51.4805,-0.2942"]
         },
         {
         "id": 209,
@@ -558,7 +558,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Spoink",
-        "coordinates": ["nothing"]
+        "coordinates": ["-33.9901,18.4323","35.7890,139.8704"]
         },
         {
         "id": 7,
@@ -579,7 +579,7 @@
         "region": "Sinnoh",
         "shiny": "false",
         "name":"Stunky",
-        "coordinates": ["nothing"]
+        "coordinates": ["35.3813,-94.3748","41.8762,-87.6197"]
         },
         {
         "id": 185,
@@ -593,14 +593,14 @@
         "region": "Hoenn",
         "shiny": "false",
         "name":"Surskit",
-        "coordinates": ["nothing"]
+        "coordinates": ["10.7878,106.7052","34.6855,135.5279","41.8472,-87.6101","44.4043,26.1099"]
         },
         {
         "id": 333,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Swablu",
-        "coordinates": ["nothing"]
+        "coordinates": ["34.8217,135.6911"]
         },
         {
         "id": 220,
@@ -635,7 +635,7 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Torchic",
-        "coordinates": ["nothing"]
+        "coordinates": ["27.2267,-80.2132","35.1669,129.0546","37.5505,-121.9670","40.2111,-74.6750"]
         },
         {
         "id": 158,
@@ -649,14 +649,14 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Treecko",
-        "coordinates": ["nothing"]
+        "coordinates": ["32.0239,-102.0968","36.4020,140.5968"]
         },
         {
         "id": 387,
         "region": "Sinnoh",
         "shiny": "true",
         "name":"Turtwig",
-        "coordinates": ["nothing"]
+        "coordinates": ["37.8077,-122.4752","47.5157,19.0771"]
         },
         {
         "id": 100,
@@ -677,14 +677,14 @@
         "region": "Hoenn",
         "shiny": "true",
         "name":"Wailmer",
-        "coordinates": ["nothing"]
+        "coordinates": ["39.7898,-89.6844","47.6359,-117.4115"]
         },
         {
         "id": 278,
         "region": "Hoenn",
         "shiny": "true",
         "name":"Wingull",
-        "coordinates": ["nothing"]
+        "coordinates": ["43.8193,125.3302","44.7825,-93.1484"]
         },
         {
         "id": 202,
